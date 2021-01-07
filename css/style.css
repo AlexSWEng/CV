@@ -56,6 +56,10 @@ del {
 .text-hint {
   color: var(--hint); }
 
+.fa-angle-double-up {
+  font-size: 2em;
+  float: right; }
+
 @keyframes bounce {
   0% {
     transform: rotate(-45deg); }
