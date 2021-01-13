@@ -201,6 +201,9 @@ aside {
       left: 0;
       width: 80%;
       background: var(--light); }
+    aside .block .bar-skill .javascript-progress,
+    aside .contact-block .bar-skill .javascript-progress {
+      width: 40%; }
     aside .block .bar-skill .bar-skill-dot,
     aside .contact-block .bar-skill .bar-skill-dot {
       position: absolute;
@@ -210,6 +213,9 @@ aside {
       left: calc(80% - 5px);
       top: -2.5px;
       transform: rotate(45deg); }
+    aside .block .bar-skill .javascript-dot,
+    aside .contact-block .bar-skill .javascript-dot {
+      left: calc(40% - 5px); }
   aside .block .stars-container,
   aside .contact-block .stars-container {
     display: flex;
